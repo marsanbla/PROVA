@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="243dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SURNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SURNAME"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="330dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/MAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/PASSW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="505dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="274dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="534dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="611dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
