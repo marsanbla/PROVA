@@ -11,28 +11,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
+        android:onClick="loginbtnn"
         android:text="@string/login"
         app:layout_constraintBottom_toTopOf="@+id/signbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        android:onClick="loginbtnn"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/signbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="@string/sign_up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="589dp"
         android:onClick="signup"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
 
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/intro"
@@ -40,9 +43,12 @@
         android:layout_height="wrap_content"
         android:text="@string/plastic_precios"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="87dp" />
+        app:layout_constraintBottom_toTopOf="@+id/loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/logo"
